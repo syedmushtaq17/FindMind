@@ -1,0 +1,159 @@
+body{
+    background-image:url('/src/background.png') ;
+    /* background-image: url('/src/background.png'); */
+    color: white;
+}
+
+
+.container{
+    position:"relative"
+}
+
+.container-box{
+    position:'absolute';
+    margin-left:70vh ;
+    margin-top: 20vh;
+    width:30%; 
+   
+}
+
+input[type="text" ] {
+    outline: none;
+    font-size: medium;
+    font-style: italic;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background: transparent;
+    border: none;
+    
+  }
+  .circle {
+    height: 25px;
+    width: 25px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+  }
+  
+
+  input[type='password'] {
+    outline: none;
+    font-size: medium;
+    font-style: italic;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background: transparent;
+    border: none;
+    
+  }
+
+button{
+    position: absolute;
+    align-content: center;
+    background-color:white;
+    border: none;
+    color: blue;
+    padding: 12px 40px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 25px;
+    margin: 5% 10%;
+    cursor: pointer;
+}
+.errors{
+    text-align: center;
+    color: rgb(230, 99, 99);
+    font-style: initial;
+    font-family: sans-serif;
+    font-size: small;
+}
+
+.abc{
+    float: left;
+    margin-top: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+.top{
+
+    height: 10vh;
+    display: flex;
+    /* background-color: blue; */
+    bottom: 0vh;
+    margin-bottom: 0px;
+    color: black;
+    background-color:rgb(0, 26, 77);
+}
+.testing
+{
+    margin: 0;
+}
+ .dashboardbody
+{
+    margin-top: 0px;
+    height: 90%;
+    /* background-color:rgb(238, 206, 206);
+    background-image: url('/src/planewhite.jpg');
+    background-repeat: no-repeat; */
+    background-color: black;
+    background-size: cover;
+
+    background-color: transparent;
+    
+} 
+.adds{
+    display: flex;
+    
+}
+
+.logo{
+    
+     color:rgb(226, 202, 202);
+    font-family: monospace;   
+    left: 30px;
+    font-size: 30px;
+    font-weight: lighter; 
+}
+.image2{
+    position: absolute;
+    float: right;
+    right: 30px;
+    border-radius: 50%;
+    top: 3px;
+}
+
+.box{
+    margin-left: 20px;
+    width: 350px;
+    height: 250px;
+    border: 2px solid rgb(0, 26, 77);
+    display: flex;
+   color: black;
+}
+.butts{
+
+    position: absolute;
+    float: right;
+    right: 30px;
+    border-radius: 50%;
+    top: 3px;
+}
+#dot{
+   
+    margin-top: 0px ;
+    float: right;
+    right: 20px;
+    font-size: large;
+    
+    
+}
+
+
+
